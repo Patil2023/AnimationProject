@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".animation">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="blink"
+            android:id="@+id/Btn1"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="fade"
+            android:id="@+id/Btn2"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="move"
+            android:id="@+id/Btn3"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="rotate"
+            android:id="@+id/Btn4"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="slide"
+            android:id="@+id/Btn5"
+            android:layout_height="wrap_content">
+
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="zoom"
+            android:id="@+id/Btn6"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
